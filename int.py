@@ -10,4 +10,4 @@
 
 # print("calculated value of x, y = ", x + y)
 
-print(int(input("What's x? ")) + int(input("What's y? ")))
+# print(int(input("What's x? ")) + int(input("What's y? ")))
