@@ -14,11 +14,11 @@
 # print(type(num))
 # print(num * 3)
 
-items = []
-if items:
-    print("Full")
-else:
-    print("Empty")
+# items = []
+# if items:
+#     print("Full")
+# else:
+#     print("Empty")
 
 # print("Hello", "World", sep="-", end="!")
 # print("CS50P")
