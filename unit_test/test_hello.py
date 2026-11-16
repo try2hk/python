@@ -10,8 +10,16 @@ from hello import hello
 #     assert hello() == "hello, world"
 
 # Snippet-2
+# def test_defaut():
+#     assert hello() == "hello, world"
+
+# def test_argument():
+#     assert hello("David") == "hello, David"
+
+# Snippet-3
 def test_defaut():
     assert hello() == "hello, world"
 
 def test_argument():
-    assert hello("David") == "hello, David"
+    for name in ["Hermione", "Harry", "Ron"]:
+        assert hello(name) == f"hello, {name}"
